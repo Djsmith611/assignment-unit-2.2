@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the variable  "name" to 'Dane'
+// We check the variable 'Dane' for the value "Mary" to display 'Hi,Mary!'
+// Otherwise the console will log 'How do you do?'
+// dane is not equal to mary so the console will display 'How do you do?'
+
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  we create the variable "secret"
+//  we set the variable "code" to 123
+//  we check if "code" is equal to 123 which it is so "secret" is changed to 'super' and "code" is multiplied by 2
+//  we check if "code is greater than 250, which 246 is not so "secret" is not changed.
+//  we console.log() "secret" and it displays 'super'
 
 //CODE
 /*
@@ -70,10 +72,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set the variable isStudent to true, the variable age to 34, and the variable zip to 55407.
+// we check if isStudent is equal to true, and zip is over 80000. the zip is under 80000
+// we check if isStudent is false  or age is under 30. isStudent is true and age is over 30.
+// we check if IsStudent is true, which it is. The console will log 'Welcome to Prime!'.
+// otherwise the console would display 'How about the weather?'
 
 //CODE
 /*
@@ -134,10 +137,12 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//the if function should have ' colorTwo = 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -146,7 +151,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//if the code was mean to only display if the time and temp variables meet the conditions, && should be used instead of ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +164,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//Need to swap minAge and age in the function. Should use >= instead of <= to check for greater than.
 if(minAge <= age) {
   console.log('no entry');
 } else {
